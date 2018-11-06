@@ -1,0 +1,45 @@
+//to jest komentarz 1 linijkowy
+/*komentarz ile chcesz
+ddsd
+*/
+public class Main
+{
+    byte b = 127; //-128 do 127
+    short s = 32767;
+    int i = -21474848;
+    long l = 93720368547752l;
+    float f = 3.44444f;
+    double d = 3.383838383838;
+    char c = 's';
+    String string = "To jest jakiś tekst";
+
+    public static void main (String[] args)
+    {
+        byte b1 = 127;
+        b1++;
+        b1++;
+        System.out.println(b1);
+        int wynik1, wynik2 = 7, wynik3, wynik4;
+        int l1 = 56;
+        int l2 = 16;
+        wynik1 = l1+l2;
+        wynik2 = l1-l2;
+        wynik3 = l1*l2;
+        wynik4 = l1/l2;
+        int wynik5 = l1%l2;
+
+        System.out.println("Wynik = " + wynik1);
+        System.out.println("Wynik = " + wynik2);
+        System.out.println("Wynik = " + wynik3);
+        System.out.println("Wynik = " + wynik4);
+        System.out.println("Wynik = " + wynik5);
+
+        wynik5++;
+        wynik5++;
+        wynik5++;
+        System.out.println("Wynik = " + wynik5);
+        wynik1--;
+        System.out.println("Wynik = " + wynik1);
+    }
+}
+
